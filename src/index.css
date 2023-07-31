@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-login {
+    font-family : "Mulish";
+    font-size : 14px;
+    font-weight : 600;
+    color : var(--white);
+    width : 148px;
+    height : 48px;
+    border-radius: 50px;
+    background-color: #ff6161;
+}   
+
+.pagination {
+    font-family: "Mulish";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--grey);
+  }
+  
+  .pagination:hover {
+    font-family: "Mulish";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--white);
+    background: #197bff;
+    border-radius: 10px;
+  }
+  
+  .pagination-next {
+    font-family: "Mulish";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--black);
+  }
+  
+  .pagination-next:hover {
+    font-family: "Mulish";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--white);
+    background: #197bff;
+    border-radius: 10px;
+  }
+  
+  .pagination-aktif {
+    font-family: "Mulish";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--white);
+    background: #197bff;
+    border-radius: 10px;
+  }
